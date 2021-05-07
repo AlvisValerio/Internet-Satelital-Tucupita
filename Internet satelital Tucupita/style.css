@@ -1,0 +1,580 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+
+    background-image: url(img/Nasa-enfoque.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.logo img {
+
+    width: 50px;
+    height: 50px;
+}
+
+.menu-navegacion {
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 20px 20px 0px 35px; /*Arriba, Derecha, Abajo, Izquierda*/
+    
+}
+
+nav ul li {
+
+    list-style: none;
+    float: left;
+}
+
+
+nav ul li a {
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    text-shadow: 0px 1px 1px black;
+}
+
+nav ul li a:hover {
+
+    text-decoration: underline;
+    
+}
+
+.contenedor-header {
+
+    width: 100%;
+    padding-top: 160px;
+    text-align: center;
+}
+
+.titulo-header {
+
+    font-size: 50px;
+    text-shadow: 0px 1px 1px black;
+}
+
+.slogan {
+
+    font-weight: 300;
+    text-shadow: 0px 1px 1px black;
+}
+
+ /* Servicio */
+
+.servicios {
+
+    width: 95%;
+    height: 800px;
+    margin: auto;
+}
+
+.texto-centro {
+
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px ;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgba(56, 45, 45, 0.664);
+    cursor: pointer;
+}
+
+.texto-centro:hover {
+
+    text-decoration: underline;
+}
+
+.ofrecemos {
+
+    display: flex;
+}
+
+.imagen-ofrecemos {
+
+    width: 50%;
+}
+
+.imagen-ofrecemos img{
+
+    width: 480px;
+    height: 320px;
+    border-radius: 5px;
+}
+
+.texto-ofrecemos {
+
+    width: 50%;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.texto-ofrecemos h3 {
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-icono {
+
+    margin:  10px auto; 
+}
+
+.parrafo {
+
+    margin-top: -30px;
+}
+
+.card {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card-interno {
+
+    width: 30%;
+    height: 150px;
+    border: 1px solid rgb(214, 202, 202);
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.iconos img {
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+/* Planes */
+
+.planes {
+
+    width: 100%;
+    height: 950px;
+}
+
+.contenedor-planes {
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img-planes {
+
+    width: 33.33%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.caja-planes {
+
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.img-planes img {
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Descripcion planes */
+
+.planes-descripcion {
+
+    display: flex;
+    background-color: rgb(23, 34, 52);
+    width: 100%;
+    height: 500px;
+}
+
+.descripcion-img {
+
+    width: 50%;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.separador {
+
+    width: 50%;
+}
+
+.separador h4 {
+
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.separador p {
+
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    padding: 0 30px;
+    color: white;
+}
+
+.descripcion-img img {
+
+    width: 500px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+/* Nosotros */
+
+.nosotros {
+
+    width: 100%;
+    height: 540px;
+    padding-top: 40px;    
+}
+
+.contenedor-display {
+
+    display: flex;
+}
+
+.img-somos {
+
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    padding-left: 60px;
+}
+
+.img-somos img {
+
+    width: 400px;
+    height:350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.somos {
+
+    width: 50%;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.centro {
+
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+/* Contacto */
+
+.contenedor {
+
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px 0;
+    background: rgb(23, 34, 52);
+    height: auto;
+}
+
+.titulo-formulario, .subtitulo-formulario {
+
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.titulo-formulario {
+
+    cursor: pointer;
+}
+
+.subtitulo-formulario {
+
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form {
+
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+
+    display: flex;
+    width: 49%;
+    padding: 13px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    color:black;
+    background: #ffffff;
+    margin-bottom: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+textarea {
+
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background: #ffffff;
+    padding: 50px 0px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+
+    display: inline-block;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgb(21, 28, 124);
+    width: 90px;
+    margin: auto;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    
+    background: rgb(13, 19, 94);
+    box-shadow: 1px 3px 0px black;
+}
+
+input[type="submit"]:active {
+    
+    background:rgb(233, 7, 7);
+    width: 100px;
+}
+
+/* Footer */
+
+.footer {
+
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: rgb(23, 34, 52);
+    color: white;
+    padding-top: 40px;
+
+}
+
+.contenedor-redes {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+
+    margin: 30px 10px;
+}
+
+.redes-sociales img {
+
+    width: 40px;
+    height: 40px;
+}
+
+.redes-sociales img:hover {
+
+    opacity: .5;
+}
+
+@media only screen and (max-width: 400px) {
+
+   .logo img {
+
+    display: none;
+   }
+
+   .menu-navegacion {
+
+    padding: 25px 0px 0px 0px;
+
+    }
+
+   nav ul li a {
+
+    padding: 6px;
+
+    }
+
+    .titulo-header {
+
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+    }
+    
+    .slogan {
+    
+        font-weight: 300;
+        margin: 0px 8px;
+    }
+
+    .imagen-ofrecemos {
+
+        display: none;
+    }
+
+    .texto-ofrecemos {
+
+        width: 90%;
+        margin: auto;  
+    }
+
+    .texto-centro {
+
+        margin-bottom: 0px;
+    } 
+
+    .card-interno {
+
+        width: 90%;
+    }
+
+    .servicios {
+
+        height: auto;
+    }
+
+    .planes {
+        
+        height: auto;
+    }
+
+    .contenedor-planes {
+
+        margin-top: 15px;
+    }
+
+    .planes-descripcion {
+
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-planes {
+
+        width: 100%;
+    }
+
+    .descripcion-img {
+
+        display: none;
+    }
+
+    .separador {
+
+        width: 100%;
+    }
+
+    .separador h4 {
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .img-somos {
+
+        display: none;
+    }
+
+    .nosotros {
+
+        padding-top: 0px;
+        overflow: hidden;
+        overflow: scroll;   
+    }
+
+    .somos {
+
+        width: 90%;
+        margin: auto;
+        padding: 0 10px;
+    }
+
+    .centro {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"], 
+    input[type="email"] {
+
+        width: 100%;
+    }
+
+    textarea {
+
+        height: 180px;
+    }
+
+}
